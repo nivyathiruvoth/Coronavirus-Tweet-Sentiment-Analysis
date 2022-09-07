@@ -52,7 +52,7 @@ The shape of the dataset is (41157, 6). The target variable is ‘Sentiment’.
 
 ● Removed usernames and links using regex and then performed a tokenization process.
 
-● Fixed the contractions using the contraction library
+● Fixed the contractions using the contraction library.
 
 ● Removed stopwords and punctuation and applied lower casing.
 
@@ -80,6 +80,6 @@ The shape of the dataset is (41157, 6). The target variable is ‘Sentiment’.
 
 ● Linear SVM with 85% accuracy after cross-validation and hyperparameter tuning performed well for multinomial classification.
 
-● We hope this project will be helpful for the Government and NGOs to take adequate measures in policy making and rehabilitation respectively.
+● This project will be helpful for the Government and NGOs to take adequate measures in policy making and rehabilitation respectively.
 
 ● Various profit organizations can make profit through the production and distribution of essential items during the pandemic by analyzing various sentiments.
