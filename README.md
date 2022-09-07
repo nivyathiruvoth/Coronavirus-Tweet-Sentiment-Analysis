@@ -8,12 +8,12 @@ writer’s attitude towards a particular topic is Positive, Negative, or Neutral
 
 Tweets are often useful in generating a vast amount of sentiment data upon analysis. These data are useful in understanding the opinion of the people about a variety of topics.
 
-## PROBLEM STATEMENT
+## Problem Statement
 
 We are provided with a coronavirus tweets csv file which contains more than 40000 tweets from people around the world on covid 19 and our aim is to analyze these
 tweets made on Covid-19 from around the world and predict the sentiment of each of the tweet by classifying them into three categories positive, negative and neutral.
 
-## OBJECTIVE
+## Objectives
 
 1. Analyze the tweets regarding COVID 19 and get insights regarding people’s sentiment.
 
@@ -48,7 +48,7 @@ The shape of the dataset is (41157, 6). The target variable is ‘Sentiment’.
 ● In all the tweets, irrespective of the sentiment the most frequently used words apart from the name of the disease are supermarket, grocery store, toilet paper, online shopping, food and price which signals how concerning it was for the people even to get basic day to day items during the pandemic.
 
 
-## Pre-processing of data
+## Pre-processing of Data
 
 ● Removed usernames and links using regex and then performed a tokenization process.
 
